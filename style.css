@@ -1,0 +1,64 @@
+body {
+    font-family: -apple-system-font, "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0pt;
+    margin: 0pt;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    overflow: scroll;
+}
+input {
+    margin: 6pt auto;
+    padding: 6pt;
+    width: 125pt;
+    border-color: #000;
+    border-width: 0pt 0pt 1pt 0pt;
+    border-style: solid;
+    border-radius: 0pt;
+    display: block;
+    font-size: 11pt;
+    outline: none;
+}
+input:focus {
+    border-color: #007AFF;
+    border-width: 0pt 0pt 2pt 0pt;
+}
+h1 {
+    font-size: 20pt;
+    text-align: center;
+    font-weight: 300;
+}
+button {
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    margin: 20pt auto;
+    padding: 10pt;
+    width: 100pt;
+    color: #007AFF;
+    border-style: none;
+    background-color: #EFEFF4;
+    border-radius: 6pt;
+    font-size: 11pt;
+}
+p {
+    font-size: 12pt;
+    text-align: center;
+    max-width: 500pt;
+    display: block;
+    margin: 15pt 10pt;
+    text-align: center;
+    line-height: 1.5;
+}
+.spacer {
+    opacity: 0;
+    display: block;
+    height: 25pt;
+}
+div {
+    max-width: 350pt;
+}
