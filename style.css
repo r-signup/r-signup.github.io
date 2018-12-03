@@ -57,7 +57,7 @@ p {
 .spacer {
     opacity: 0;
     display: block;
-    height: 25pt;
+    height: 50pt;
 }
 div {
     max-width: 350pt;
