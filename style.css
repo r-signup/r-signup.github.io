@@ -45,6 +45,12 @@ button {
     border-radius: 6pt;
     font-size: 11pt;
 }
+button:hover {
+    background-color: #E5E5EA;
+}
+button:active {
+    background-color: #D1D1D6;
+}
 p {
     font-size: 12pt;
     text-align: center;
