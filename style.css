@@ -62,3 +62,20 @@ p {
 div {
     max-width: 350pt;
 }
+textarea {
+    margin: 6pt auto;
+    padding: 6pt;
+    width: 80%;
+    border-color: #000;
+    border-width: 0pt 0pt 1pt 0pt;
+    border-style: solid;
+    border-radius: 0pt;
+    display: block;
+    font-size: 11pt;
+    outline: none;
+    resize: none;
+}
+textarea:focus {
+    border-color: #007AFF;
+    border-width: 0pt 0pt 2pt 0pt;
+}
